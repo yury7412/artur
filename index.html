@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <title>Помогите Артуру</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#video">Видео про Артура</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#story">История</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#help">Сбор средств</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <img
+        src="./img/artur.png"
+        alt=""
+        class="rounded-3 mx-auto d-block img-top"
+      />
+      <div class="title">
+        Помогите Артуру <br />
+        сделать операцию по коррекции <br />
+        работы сердечка
+      </div>
+      <div class="button-help mx-auto">Помочь Артуру</div>
+      <div
+        id="video"
+        class="video-title mx-auto d-flex flex-column ailne-items-center"
+      >
+        <h3 class="text-center">
+          Короткое видео в <span class="blue">VK</span> про историю Артура
+        </h3>
+        <iframe
+          class="mx-auto"
+          src="https://vk.com/video_ext.php?oid=-154983644&id=456242557&autoplay=1"
+          style="
+            background-color: #000;
+            margin-top: 32px;
+            border-radius: 32px;
+            aspect-ratio: 16/9;
+            width: 95%;
+            max-width: 750px;
+          "
+          allow="encrypted-media; fullscreen; picture-in-picture"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="story" class="container px-4 cards">
+        <div class="row gx-3">
+          <div class="col-11 col-md-4 card border-0">
+            <div class="p-3 acard">
+              <h3>В чём проблема</h3>
+              <p>
+                У Артура врожденный порок сердца - атрезия легочной артерии 2
+                тип, аорто-легочные коллатерали. <br /><br />Стенозы ветвей
+                легочных артерий тяжелой степени. БАЛКА. <br /><br />
+                Недостаточность трикуспидального клапана тяжелой степени. ХСН
+                IIA ФК по Ross II.
+              </p>
+            </div>
+          </div>
+          <div class="col-11 col-md-4 card border-0">
+            <div class="p-3 acard">
+              <h3>В 1 неделю жизни Артур перенес первую операцию</h3>
+              <p>
+                За 5 лет было проведено 2 полостные операции на открытом сердце
+                и около 10 эндоваскулярных. <br /><br />Этот порок очень сложный
+                и сопровождается сужениями легочных артерий (стенозами). Это
+                мешает нормальному кровотоку и создает повышенное давление в
+                правом желудочке сердца, который работает на износ.
+              </p>
+            </div>
+          </div>
+          <div class="col-11 col-md-4 card border-0">
+            <div class="p-3 acard">
+              <h3>?</h3>
+              <p>
+                Артур быстро утомляется, сатурация не поднимается выше 92%,
+                иногда после физической нагрузки бывают приступы сильнейшей
+                отдышки с полуобморочным состоянием.
+                <br /><br />
+                К сожалению из-за сложной анатомии сердца Артура не все доктора
+                могут помочь в его лечении.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="surgery">
+        <h3>
+          В феврале-марте 2026 года Артура ждут в итальянской клинике на
+          очередную операцию по коррекции работы сердечка
+        </h3>
+        <div class="cena mx-auto">
+          <span>
+            Стоимость операции <span class="red">5 742 550 руб</span>
+            <div class="br"></div>
+            + доп. расходы <span class="red">600 000 руб</span>
+          </span>
+          <br /><br />
+          (покупка билетов, оформление визы включая консульские сборы,
+          страховка, питание и лекарства после операции).
+        </div>
+      </div>
+      <div class="founds">
+        Благотворительные фонды тоже открыли сборы,
+        <span class="blue"> но деньги собираются очень медленно </span>
+        и Артур может не успеть попасть на жизненно необходимую операцию
+      </div>
+      <div id="help" class="container help">
+        <h3>Как можно помочь?</h3>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-11 col-md-6">
+              <div class="help-card col">
+                <h4>Посильный перевод</h4>
+                <p>
+                  <span class="blue">Даже небольшие суммы важны</span> – ведь «с
+                  миру по нитке – голому рубаха». Реквизиты указаны ниже.
+                </p>
+                <div class="row rek">
+                  <div
+                    class="col-11 col-md-5"
+                    style="border-right: 1px solid #00000020"
+                  >
+                    СБП <br />
+                    +7(967)489-45-15 <br />
+                    <br /><br />
+                    Т-банк <br />40817810700025063721
+                  </div>
+                  <div class="col-11 col-md-7 mb-0 mt-auto">
+                    <a
+                      class="blue"
+                      href="https://www.sberbank.ru/ru/choise_bank?requisiteNumber=+79674894515&bankCode=100000000004"
+                    >
+                      Ссылка для быстрого перевода<br />
+                    </a>
+                    <br />
+                    Юлия Юрьевна А. <br />(мама Артура)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-6">
+              <div class="help-card col">
+                <h4>Пожертвование в благотворительный фонд</h4>
+                <div
+                  class="row rek justify-content-center align-items-start"
+                  style="margin-top: 120px"
+                >
+                  <a
+                    class="col-6 bf blue"
+                    style="border-right: 1px solid #00000020"
+                    href="https://www.saveme.su/komu-pomoch/artur-pacheko"
+                  >
+                    БФ "Спаси жизнь"
+                  </a>
+
+                  <a
+                    class="col-6 bf blue"
+                    href="https://aleshafond.ru/children/artur-paceko-velaskes"
+                    >БФ "Алёша"</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="thank">Спасибо вам за помощь!</h2>
+      <img
+        class="rounded-3 mx-auto d-block img-bottom"
+        src="./img/image 2.png"
+        alt=""
+      />
+      <p class="remarka mx-auto">
+        Вся информация размещена в группе сбора, которую ведет лично мама Артура
+        – Юлия Андрекова-Афанасенко.
+        <br /><br />Если у вас есть какие-то дополнительные вопросы или
+        предложения – телефон Юлии +79674894515
+      </p>
+    </main>
+    <footer>Помогает Phoenix Studio</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
